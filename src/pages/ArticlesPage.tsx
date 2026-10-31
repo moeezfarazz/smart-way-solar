@@ -174,6 +174,8 @@ export const ArticlesPage: React.FC = () => {
                 <img
                   src={featuredArticle.image}
                   alt={featuredArticle.title}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute top-5 left-5 bg-gray-950/80 backdrop-blur-sm text-[#e3ff75] text-xs font-bold px-3 py-1.5 rounded-full">
@@ -237,6 +239,8 @@ export const ArticlesPage: React.FC = () => {
                   <img
                     src={art.image}
                     alt={art.title}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute top-4 left-4 bg-gray-950/80 backdrop-blur-sm text-white text-[11px] font-bold px-3 py-1 rounded-full">

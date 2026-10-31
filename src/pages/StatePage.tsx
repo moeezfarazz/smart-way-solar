@@ -30,6 +30,8 @@ export const StatePage: React.FC = () => {
           <img
             src={location.heroImage}
             alt={`Solar homes in ${location.name}`}
+            fetchPriority="high"
+            decoding="async"
             className="w-full h-full object-cover opacity-25"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-900/80 to-transparent" />

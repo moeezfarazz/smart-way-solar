@@ -106,6 +106,7 @@ export const FindYourState: React.FC = () => {
                   alt={`Solar in ${loc.name}`}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
+                  decoding="async"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/50 to-transparent" />
                 <div className="absolute top-3 right-3 bg-gray-950/90 text-[#e3ff75] text-xs font-bold px-2.5 py-1 rounded-lg border border-gray-800 backdrop-blur-sm">

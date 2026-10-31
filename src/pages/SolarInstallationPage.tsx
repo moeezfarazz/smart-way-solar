@@ -45,6 +45,8 @@ export const SolarInstallationPage: React.FC = () => {
           <img
             src="/assets/media/installers-mounting.webp"
             alt="Smart Way Solar crew carefully setting up and maintaining efficient solar panels"
+            fetchPriority="high"
+            decoding="async"
             className="w-full h-full object-cover opacity-35"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-gray-950/90 via-gray-950/70 to-transparent" />
@@ -105,6 +107,8 @@ export const SolarInstallationPage: React.FC = () => {
               <img
                 src="/assets/media/solar-installers-roof.webp"
                 alt="Solar technicians securing monocrystalline panels on roof"
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -112,6 +116,8 @@ export const SolarInstallationPage: React.FC = () => {
               <img
                 src="/assets/media/solar-sunset-roof.webp"
                 alt="Finished rooftop solar installation at sunset"
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover"
               />
             </div>

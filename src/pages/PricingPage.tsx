@@ -6,6 +6,7 @@ import { PricingTable } from '../components/PricingTable';
 import { WhySmartWaySolar } from '../components/WhySmartWaySolar';
 import { FaqAccordion } from '../components/FaqAccordion';
 import { QuoteForm } from '../components/QuoteForm';
+import { SITE_CONFIG } from '../config/siteConfig';
 
 export const PricingPage: React.FC = () => {
   return (
@@ -17,6 +18,8 @@ export const PricingPage: React.FC = () => {
           <img
             src="/assets/media/pricing-hero-house.webp"
             alt="A modern, single-story house illuminated by outdoor lights powered by rooftop solar panels"
+            fetchPriority="high"
+            decoding="async"
             className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-gray-950/90 via-gray-950/70 to-gray-950/40" />
@@ -173,6 +176,8 @@ export const PricingPage: React.FC = () => {
                 <img
                   src="/assets/media/pricing-aerial-white-house.webp"
                   alt="Aerial view of a modern white house with solar panels, showcasing efficient solar installation pricing"
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -201,8 +206,13 @@ export const PricingPage: React.FC = () => {
 
               <div className="p-6 rounded-2xl bg-white border border-gray-200 shadow-xs space-y-3">
                 <div className="text-xs font-bold uppercase tracking-wider text-teal-800">Direct Office Support</div>
-                <div className="text-lg font-bold text-gray-900">1 (800) 555-7652</div>
-                <div className="text-xs text-gray-600">contact@smartwaysolar.com</div>
+                <a
+                  href={SITE_CONFIG.phoneLink}
+                  className="text-lg font-bold text-gray-900 hover:text-teal-700 transition-colors block"
+                >
+                  {SITE_CONFIG.phone}
+                </a>
+                <div className="text-xs text-gray-600">{SITE_CONFIG.email}</div>
               </div>
             </div>
 

@@ -95,6 +95,8 @@ export const HomePage: React.FC = () => {
                   <img
                     src={item.image}
                     alt={item.title}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-gray-950/60 via-transparent to-transparent" />
@@ -127,6 +129,8 @@ export const HomePage: React.FC = () => {
                 <img
                   src="/assets/media/whole-home-diagram.webp"
                   alt="Whole-Home Solar diagram"
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -199,6 +203,8 @@ export const HomePage: React.FC = () => {
           <img
             src="/assets/media/modern-home-dusk.webp"
             alt="Modern home at dusk powered by solar energy"
+            loading="lazy"
+            decoding="async"
             className="w-full h-full object-cover opacity-35"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/70 to-gray-950/40" />
@@ -253,6 +259,8 @@ export const HomePage: React.FC = () => {
         <img
           src="/assets/aistudio/Gemini_Generated_Image_ro5l8cro5l8cro5l_56346b7e.jpg"
           alt="Smart Way Solar electric service truck parked in front of garage at dusk"
+          loading="lazy"
+          decoding="async"
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-gray-950/60 via-transparent to-transparent" />
@@ -318,6 +326,8 @@ export const HomePage: React.FC = () => {
                 <img
                   src="/assets/media/aerial-sunlit-roof.webp"
                   alt="Aerial view of sunlit rooftop solar installation"
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -356,6 +366,8 @@ export const HomePage: React.FC = () => {
                 <img
                   src="/assets/media/whole-home-diagram.webp"
                   alt="Diagram of a modern house with solar panels on the roof, battery storage, and electric vehicle charging"
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-auto object-contain"
                 />
               </div>

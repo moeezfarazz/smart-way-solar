@@ -12,6 +12,8 @@ export const IncentivesPage: React.FC = () => {
           <img
             src="/assets/media/pricing-hero-house.webp"
             alt="Solar powered residence in the Northeast"
+            fetchPriority="high"
+            decoding="async"
             className="w-full h-full object-cover opacity-35"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-gray-950/90 via-gray-950/70 to-transparent" />

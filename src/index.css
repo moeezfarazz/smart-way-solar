@@ -6,10 +6,38 @@
     scroll-behavior: smooth;
     color: #111827;
     background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    overflow-x: clip;
+  }
+
+  body {
+    overflow-x: clip;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  /* Natural touch scroll on mobile devices */
+  * {
+    -webkit-overflow-scrolling: touch;
   }
 
   ::selection {
     background-color: #0d9488;
     color: #ffffff;
+  }
+
+  /* Accessibility: Respect reduced-motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto !important;
+    }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
   }
 }

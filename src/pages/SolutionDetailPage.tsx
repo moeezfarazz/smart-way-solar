@@ -54,6 +54,8 @@ export const SolutionDetailPage: React.FC = () => {
                 <img
                   src={solution.image}
                   alt={solution.title}
+                  fetchPriority="high"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
               </div>

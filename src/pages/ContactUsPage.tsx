@@ -35,7 +35,7 @@ export const ContactUsPage: React.FC = () => {
                   <div>
                     <h3 className="text-xs font-bold uppercase tracking-wider text-gray-600">Telephone</h3>
                     <a
-                      href={`tel:${SITE_CONFIG.phone.replace(/\D/g, '')}`}
+                      href={SITE_CONFIG.phoneLink}
                       className="text-lg font-bold text-gray-950 hover:text-teal-700 transition-colors mt-0.5 block"
                     >
                       {SITE_CONFIG.phone}

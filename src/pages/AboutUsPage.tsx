@@ -13,6 +13,8 @@ export const AboutUsPage: React.FC = () => {
           <img
             src="/assets/aistudio/Gemini_Generated_Image_6dplo56dplo56dpl__2__02444f31.jpg"
             alt="About Smart Way Solar company mission and dedicated installation team"
+            fetchPriority="high"
+            decoding="async"
             className="absolute inset-0 w-full h-full object-cover object-center z-0"
           />
           {/* Subtle directional gradient to ensure text readability without obscuring the vehicle and technicians */}
@@ -69,6 +71,8 @@ export const AboutUsPage: React.FC = () => {
                 <img
                   src="/assets/media/modern-house-exterior.webp"
                   alt="Modern residence with integrated clean energy system"
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -86,6 +90,8 @@ export const AboutUsPage: React.FC = () => {
                 <img
                   src="/assets/aistudio/Gemini_Generated_Image_j42dfcj42dfcj42d_a21e5a50.jpg"
                   alt="Certified Smart Way Solar electricians and installation technicians"
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
               </div>

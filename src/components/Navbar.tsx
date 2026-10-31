@@ -93,7 +93,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal }) => {
           }`}
         >
           {/* Header Bar */}
-          <div className="flex items-center justify-between px-5 sm:px-8 py-3 sm:py-3.5">
+          <div className="flex items-center justify-between px-3 sm:px-8 py-2.5 sm:py-3.5">
             {/* Logo */}
             <div className="flex-shrink-0 flex items-center">
               <Logo variant="light" />
@@ -185,7 +185,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal }) => {
             {/* Desktop Actions: Phone + Get a quote */}
             <div className="hidden lg:flex items-center gap-5">
               <a
-                href={`tel:${SITE_CONFIG.phone.replace(/\D/g, '')}`}
+                href={SITE_CONFIG.phoneLink}
                 className="text-sm font-semibold text-[#7aefb1] hover:text-[#9df4c5] transition-colors"
               >
                 {SITE_CONFIG.phone}
@@ -201,9 +201,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal }) => {
             </div>
 
             {/* Mobile Actions: Phone icon, Quote pill, Hamburger */}
-            <div className="flex items-center gap-2 lg:hidden">
+            <div className="flex items-center gap-1 sm:gap-2 lg:hidden flex-shrink-0">
               <a
-                href={`tel:${SITE_CONFIG.phone.replace(/\D/g, '')}`}
+                href={SITE_CONFIG.phoneLink}
                 aria-label="Call Smart Way Solar"
                 className="p-2 rounded-full text-[#7aefb1] hover:bg-white/10"
               >
@@ -212,7 +212,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal }) => {
 
               <Link
                 to="/get-a-quote"
-                className="px-3.5 py-1.5 rounded-full text-xs font-bold text-[#191919] bg-[#7aefb1]"
+                className="hidden min-[380px]:inline-flex px-3 sm:px-3.5 py-1.5 rounded-full text-xs font-bold text-[#191919] bg-[#7aefb1] whitespace-nowrap"
               >
                 Get quote
               </Link>
@@ -309,6 +309,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal }) => {
                             <img
                               src="/assets/media/modern-house-exterior.webp"
                               alt="Battery Backup installed outside modern home"
+                              loading="lazy"
+                              decoding="async"
                               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                             />
                           </div>
@@ -336,6 +338,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal }) => {
                             <img
                               src="/assets/media/solar-panels-roof.webp"
                               alt="All-black solar panels installed on residential roof"
+                              loading="lazy"
+                              decoding="async"
                               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                             />
                           </div>
@@ -406,6 +410,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal }) => {
                             <img
                               src="/assets/media/pricing-hero-house.webp"
                               alt="Modern solar home showing transparent pricing"
+                              loading="lazy"
+                              decoding="async"
                               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                             />
                           </div>
@@ -432,6 +438,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal }) => {
                             <img
                               src="/assets/aistudio/Gemini_Generated_Image_j42dfcj42dfcj42d_a21e5a50.jpg"
                               alt="Smart Way certified solar installation team"
+                              loading="lazy"
+                              decoding="async"
                               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                             />
                           </div>
@@ -495,6 +503,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal }) => {
                             <img
                               src="/assets/media/pricing-aerial-white-house.webp"
                               alt="Aerial solar neighborhood"
+                              loading="lazy"
+                              decoding="async"
                               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                             />
                           </div>
@@ -521,6 +531,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal }) => {
                             <img
                               src="/assets/aistudio/Gemini_Generated_Image_ro5l8cro5l8cro5l_56346b7e.jpg"
                               alt="Smart Way dedicated service vehicle in driveway"
+                              loading="lazy"
+                              decoding="async"
                               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                             />
                           </div>
@@ -591,6 +603,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal }) => {
                             <img
                               src="/assets/aistudio/Gemini_Generated_Image_2donho2donho2don_462be1a1.jpg"
                               alt="Dedicated Smart Way installation van and technicians"
+                              loading="lazy"
+                              decoding="async"
                               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                             />
                           </div>
@@ -617,6 +631,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal }) => {
                             <img
                               src="/assets/media/modern-home-dusk.webp"
                               alt="Modern smart home at dusk"
+                              loading="lazy"
+                              decoding="async"
                               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                             />
                           </div>
@@ -645,7 +661,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal }) => {
               <div className="p-3 bg-white/5 rounded-2xl flex items-center justify-between text-xs">
                 <span className="text-gray-300">Speak with an advisor:</span>
                 <a
-                  href={`tel:${SITE_CONFIG.phone.replace(/\D/g, '')}`}
+                  href={SITE_CONFIG.phoneLink}
                   className="font-bold text-[#7aefb1] flex items-center gap-1"
                 >
                   <Phone className="w-3.5 h-3.5" />

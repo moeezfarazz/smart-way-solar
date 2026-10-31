@@ -105,6 +105,8 @@ export const WhySmartWaySolar: React.FC = () => {
                 <img
                   src={SITE_CONFIG.founderPhotoUrl}
                   alt="Smart Way Solar"
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover rounded-3xl"
                 />
               ) : (

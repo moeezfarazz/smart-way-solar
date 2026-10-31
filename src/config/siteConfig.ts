@@ -46,6 +46,7 @@ export interface SiteConfig {
   legalCompanyName: string;
   tagline: string;
   phone: string;
+  phoneLink: string;
   email: string;
   address: string;
   FACEBOOK_URL: string;
@@ -73,7 +74,8 @@ export const SITE_CONFIG: SiteConfig = {
   companyName: 'Smart Way Solar',
   legalCompanyName: 'Smart Way Solar LLC',
   tagline: 'Whole-Home Solar, Battery Storage & Energy Systems',
-  phone: '1 (800) 555-7652',
+  phone: '1 (331) 240-1092',
+  phoneLink: 'tel:+13312401092',
   email: 'contact@smartwaysolar.com',
   address: '100 Solar Way, Suite 400, Philadelphia, PA 19104',
   FACEBOOK_URL: 'https://www.facebook.com/smartwaysolar',

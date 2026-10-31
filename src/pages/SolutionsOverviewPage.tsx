@@ -117,6 +117,8 @@ export const SolutionsOverviewPage: React.FC = () => {
           <img
             src="/assets/media/solar-sunset-roof.webp"
             alt="Solar home at sunset"
+            fetchPriority="high"
+            decoding="async"
             className="w-full h-full object-cover"
           />
         </div>
@@ -207,6 +209,8 @@ export const SolutionsOverviewPage: React.FC = () => {
                     <img
                       src={item.image}
                       alt={item.title}
+                      loading="lazy"
+                      decoding="async"
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
                     <div className="absolute top-4 left-4 p-3 rounded-2xl bg-black/60 backdrop-blur-md text-[#7aefb1]">
@@ -296,6 +300,8 @@ export const SolutionsOverviewPage: React.FC = () => {
                   <img
                     src="/assets/media/whole-home-diagram.webp"
                     alt="Diagram showing integrated whole-home solar, storage, and EV system"
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-auto object-cover"
                   />
                 </div>

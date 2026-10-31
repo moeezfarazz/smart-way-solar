@@ -21,7 +21,7 @@ export const Footer: React.FC = () => {
 
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
             <a
-              href={`tel:${SITE_CONFIG.phone.replace(/\D/g, '')}`}
+              href={SITE_CONFIG.phoneLink}
               className="flex items-center gap-3 p-3 rounded-xl bg-gray-900 hover:bg-gray-800 border border-gray-800 text-white transition-colors"
             >
               <div className="p-2 rounded-lg bg-teal-600/20 text-teal-400">
@@ -187,7 +187,7 @@ export const Footer: React.FC = () => {
           </div>
 
           {/* Legal Links */}
-          <div className="flex items-center gap-6">
+          <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-6">
             <Link to="/privacy-policy" className="hover:text-gray-400 transition-colors">
               Privacy Policy
             </Link>
