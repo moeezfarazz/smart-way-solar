@@ -1,0 +1,177 @@
+[
+  {
+    "name": "hero-video.mp4",
+    "url": "https://www.venturehome.com/wp-content/uploads/2026/01/Venture-Home-Hero-Video-EDIT-compressed.mp4",
+    "status": "success",
+    "size": 2137110,
+    "localPath": "/assets/media/hero-video.mp4"
+  },
+  {
+    "name": "hero-poster.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2026/01/homepage-poster.webp",
+    "status": "success",
+    "size": 66016,
+    "localPath": "/assets/media/hero-poster.webp"
+  },
+  {
+    "name": "mobile-poster.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2026/01/mobile-poster.webp",
+    "status": "success",
+    "size": 21104,
+    "localPath": "/assets/media/mobile-poster.webp"
+  },
+  {
+    "name": "modern-home-dusk.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2026/01/2858832-DarkerEdit-1.webp",
+    "status": "success",
+    "size": 121012,
+    "localPath": "/assets/media/modern-home-dusk.webp"
+  },
+  {
+    "name": "service-truck-dusk.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2025/12/VENTURE-HOME-MAINE-91-1.webp",
+    "status": "success",
+    "size": 181772,
+    "localPath": "/assets/media/service-truck-dusk.webp"
+  },
+  {
+    "name": "whole-home-diagram.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2026/01/Diagram2x-1024x890-1.webp",
+    "status": "success",
+    "size": 52556,
+    "localPath": "/assets/media/whole-home-diagram.webp"
+  },
+  {
+    "name": "location-map.mp4",
+    "url": "https://www.venturehome.com/wp-content/uploads/2025/04/VH_LocationMap_Option2_NEW.mp4",
+    "status": "success",
+    "size": 512440,
+    "localPath": "/assets/media/location-map.mp4"
+  },
+  {
+    "name": "grass-wind.mp4",
+    "url": "https://www.venturehome.com/wp-content/uploads/2026/01/home-grass-swaying-in-wind-compressed-1.mp4",
+    "status": "success",
+    "size": 1217127,
+    "localPath": "/assets/media/grass-wind.mp4"
+  },
+  {
+    "name": "pricing-hero-house.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2025/02/modern-home-from-driveway-scaled.webp",
+    "status": "success",
+    "size": 374836,
+    "localPath": "/assets/media/pricing-hero-house.webp"
+  },
+  {
+    "name": "pricing-aerial-white-house.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2025/02/sleek-durable-desktop.webp",
+    "status": "success",
+    "size": 80834,
+    "localPath": "/assets/media/pricing-aerial-white-house.webp"
+  },
+  {
+    "name": "solar-panels-roof.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2025/02/solarretrofit.webp",
+    "status": "success",
+    "size": 280662,
+    "localPath": "/assets/media/solar-panels-roof.webp"
+  },
+  {
+    "name": "solar-installers-roof.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2025/02/solar-installers-on-residential-roof.webp",
+    "status": "success",
+    "size": 369000,
+    "localPath": "/assets/media/solar-installers-roof.webp"
+  },
+  {
+    "name": "aerial-sunlit-roof.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2025/02/why-solar-hero-desktop.webp",
+    "status": "success",
+    "size": 111222,
+    "localPath": "/assets/media/aerial-sunlit-roof.webp"
+  },
+  {
+    "name": "installers-crew-van.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2025/12/VENTURE-HOME-MAINE-10.webp",
+    "status": "success",
+    "size": 220288,
+    "localPath": "/assets/media/installers-crew-van.webp"
+  },
+  {
+    "name": "installers-mounting.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2026/01/VENTURE-HOME-MAINE-17-1-scaled.webp",
+    "status": "success",
+    "size": 369872,
+    "localPath": "/assets/media/installers-mounting.webp"
+  },
+  {
+    "name": "smart-energy-app.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2025/02/VENTURESOLAR-8-scaled.webp",
+    "status": "success",
+    "size": 115438,
+    "localPath": "/assets/media/smart-energy-app.webp"
+  },
+  {
+    "name": "battery-backup.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2025/02/residential-tesla-battery.webp",
+    "status": "success",
+    "size": 30772,
+    "localPath": "/assets/media/battery-backup.webp"
+  },
+  {
+    "name": "enphase-battery.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2025/02/IQ-Battery-10-and-IQ-System-Controller-2.webp",
+    "status": "success",
+    "size": 145662,
+    "localPath": "/assets/media/enphase-battery.webp"
+  },
+  {
+    "name": "ev-charging-driveway.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2025/02/AdobeStock_530743109.webp",
+    "status": "success",
+    "size": 67216,
+    "localPath": "/assets/media/ev-charging-driveway.webp"
+  },
+  {
+    "name": "microinverter-hardware.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2025/02/VENTURESOLAR-6.webp",
+    "status": "success",
+    "size": 73804,
+    "localPath": "/assets/media/microinverter-hardware.webp"
+  },
+  {
+    "name": "electrical-panel-work.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2025/02/man-working-on-electrical-box.webp",
+    "status": "success",
+    "size": 55918,
+    "localPath": "/assets/media/electrical-panel-work.webp"
+  },
+  {
+    "name": "solar-sunset-roof.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2025/02/sunset-over-solar-roof-scaled.webp",
+    "status": "success",
+    "size": 154228,
+    "localPath": "/assets/media/solar-sunset-roof.webp"
+  },
+  {
+    "name": "modern-house-exterior.webp",
+    "url": "https://www.venturehome.com/wp-content/uploads/2025/02/download-3.webp",
+    "status": "success",
+    "size": 144856,
+    "localPath": "/assets/media/modern-house-exterior.webp"
+  },
+  {
+    "name": "bbb-a-plus.svg",
+    "url": "https://www.venturehome.com/wp-content/uploads/2025/02/bbb-a-plus-rating.svg",
+    "status": "success",
+    "size": 226620,
+    "localPath": "/assets/media/bbb-a-plus.svg"
+  },
+  {
+    "name": "solar-reviews-badge.png",
+    "url": "https://www.venturehome.com/wp-content/uploads/2025/01/image-2.png",
+    "status": "success",
+    "size": 7865,
+    "localPath": "/assets/media/solar-reviews-badge.png"
+  }
+]

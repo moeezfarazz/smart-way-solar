@@ -1,0 +1,570 @@
+# MASTER PROMPT — SMART WAY SOLAR WEBSITE RECREATION
+
+Act as a senior UI/UX designer, frontend engineer, motion designer, and website QA specialist.
+
+I want you to build a complete, professional, responsive website for my solar company, **Smart Way Solar**, using the following website as the primary visual and functional reference:
+
+**Reference website:** [https://www.venturehome.com/](https://www.venturehome.com/)
+
+**Pricing page:** [https://www.venturehome.com/plans-services/pricing/](https://www.venturehome.com/plans-services/pricing/)
+
+**Plans and services page:** [https://www.venturehome.com/plans-services/](https://www.venturehome.com/plans-services/)
+
+**Contact and quote page:** [https://www.venturehome.com/contact-us/](https://www.venturehome.com/contact-us/)
+
+## 1. MOST IMPORTANT REQUIREMENT
+
+Recreate the reference website's overall design, layout, spacing, typography, navigation structure, imagery, animation style, section order, card layouts, and responsive behavior as faithfully as possible.
+
+Do not create a generic solar website.
+
+Do not create a cartoon-style website, an AI-looking template, an overly colorful dashboard, or a futuristic sci-fi interface.
+
+The result must look like a professionally designed, real American solar installation company's website. Use realistic residential solar photography, real-looking homes, actual solar panels, professional installation photographs, natural lighting, and clean editorial layouts.
+
+Study the reference website before coding. Inspect its homepage, pricing page, navigation menus, images, responsive layout, visible interactions, footer, and relevant internal pages wherever accessible.
+
+The supplied screenshot is particularly important for recreating the pricing page's founder/about section.
+
+Implement a genuine, functioning website rather than a static mockup or a screenshot of a website.
+
+## 2. BRAND REPLACEMENT — SMART WAY SOLAR
+
+The new website's brand name is:
+
+**Smart Way Solar**
+
+The current reference website uses Venture Home branding, while some of its older assets or references may use Venture Solar.
+
+Replace all relevant company branding with Smart Way Solar throughout the entire project.
+
+Check all of the following:
+
+- Header and navigation.
+- Main logo and mobile logo.
+- Page headings and body content.
+- Buttons and calls to action.
+- Footer and copyright text.
+- Page titles, metadata, descriptions, and browser tab titles.
+- Image captions, alt text, and promotional graphics.
+- Animations and videos containing visible company branding.
+- Mobile navigation and dropdown menus.
+- Contact sections and quote forms.
+- Internal links and route names.
+- Any remaining references to Venture, Venture Home, Venture Solar, or Venture-branded applications.
+
+Never leave old company branding accidentally visible.
+
+Use a clean, professional **Smart Way Solar** wordmark in the same general placement and visual scale as the reference logo. If the original logo artwork cannot legally be reused, create an original, minimal text-based logo that suits the reference design.
+
+For source photographs, videos, and animations, reuse the original assets only when they are provided or legally authorized for this project. Otherwise, use high-quality, realistically photographed alternatives that closely match the original compositions and lighting.
+
+If a branded image or animation is authorized for reuse, replace the old branding with Smart Way Solar where technically possible. For text embedded in video frames or photographs, use clean image editing or an edited replacement asset. Never cover old branding with an ugly text box or leave partially visible old logos.
+
+## 3. DESIGN AND VISUAL STYLE
+
+Match the reference website's actual visual design rather than inventing a new one.
+
+Preserve the following wherever visible in the reference:
+
+- White or light backgrounds and the original section background treatments.
+- Large, clean headings and restrained body typography.
+- Original content widths, margins, and generous whitespace.
+- The same overall positioning of text, imagery, and supporting content.
+- Similar button dimensions, border radii, typography, and hover behavior.
+- The same general proportions of images and content blocks.
+- Carefully aligned columns and consistent vertical spacing.
+- Professional iconography and decorative elements.
+- Similar header, dropdown, footer, and mobile navigation behavior.
+- Smooth, restrained transitions and scroll-based animation where present.
+- Consistent image cropping, object positioning, and aspect ratios.
+
+Avoid unnecessary gradients, glassmorphism, random glowing effects, excessive shadows, oversized floating cards, and unnecessary animations.
+
+**Photography must be realistic.** Never substitute professional solar installation photography with cartoons, illustrated houses, clip art, anime, or toy-like 3D renders.
+
+Use the supplied screenshot to recreate the “Why Smart Way Solar?” section precisely, including its two-column layout, heading hierarchy, paragraph spacing, list icons, and right-side image area.
+
+The result should feel like the same general website experience, but with Smart Way Solar branding and the specified changes below.
+
+## 4. WEBSITE STRUCTURE AND NAVIGATION
+
+Create a complete, multi-page website with a reusable header, footer, navigation system, and consistent page styling.
+
+Use the following structure as the starting point. Match the reference website's menus and expand or adjust routes based on the pages that can actually be inspected.
+
+### Main navigation
+
+Create navigation categories corresponding to:
+
+1. Solutions
+2. Plans & Services
+3. Locations
+4. Explore
+
+Include a contact or telephone element and a prominent “Get a Quote” call to action where present in the reference design.
+
+### Solutions dropdown
+
+Include these sections:
+
+- Solar Panels
+- Battery Backup
+- EV Chargers
+- Smart Electrical Panels
+- Microinverters
+- Whole-Home Solar
+
+Create functional internal pages or page sections for these items.
+
+### Plans & Services dropdown
+
+Include:
+
+- Pricing & Costs
+- Solar Installation
+- Solar & Battery Incentives
+
+Each menu item must navigate to the correct internal route.
+
+### Locations dropdown
+
+Include the eight locations specified in section 7 below. Do not accidentally retain the reference website's unrelated state list.
+
+### Explore dropdown
+
+Include appropriately styled routes for:
+
+- About Us
+- Articles
+- Careers
+- Referrals
+- Contact Us
+
+If a full article archive or careers system is not available, create a coherent page with useful content and working navigation rather than leaving a broken link.
+
+Make the logo link to the homepage. Make desktop dropdowns usable with mouse and keyboard. Implement a working mobile menu with a clear open/close state.
+
+If the exact source page or animation is inaccessible, reproduce the closest verifiable design from the available references without pretending that inaccessible functionality has been inspected.
+
+## 5. HOMEPAGE
+
+Recreate the original homepage's major sections and visual hierarchy.
+
+Study the reference homepage at [https://www.venturehome.com/](https://www.venturehome.com/) and reproduce its overall sequence, imagery treatment, layout, and content structure.
+
+Include the following general content areas where present on the source site:
+
+1. A professional hero section introducing Smart Way Solar and its solar, battery-storage, and home-energy solutions.
+2. A prominent Get a Quote button.
+3. Trust indicators or company statistics.
+4. A section featuring the primary solar and home-energy solutions.
+5. A Find Your State section.
+6. Customer review or testimonial content.
+7. A section explaining the benefits of residential solar and energy management.
+8. Plans & Services promotional sections.
+9. A whole-home energy system section featuring solar panels, batteries, and home energy management.
+10. Appropriate secondary calls to action.
+11. Contact information and the footer.
+
+Use the same style of visual storytelling as the reference website.
+
+### Important factual-content rule
+
+Do not falsely claim that Smart Way Solar has the reference company's customers, ratings, installations, awards, certifications, warranties, or years of experience.
+
+Maintain the design and layout of these areas, but make company-specific statistics, testimonials, awards, guarantees, and other claims editable.
+
+Use verified Smart Way Solar information when available. Otherwise, use clearly identifiable placeholders in the project configuration or neutral copy that can be replaced before publishing. Do not present fabricated testimonials as genuine customer reviews.
+
+## 6. PRICING PAGE — CRITICAL REQUIREMENT
+
+Recreate the pricing page using this reference:
+
+[https://www.venturehome.com/plans-services/pricing/](https://www.venturehome.com/plans-services/pricing/)
+
+Match the reference layout, including the introductory heading, solar photography, pricing-plan cards, supporting benefits, “Why Smart Way Solar?” section, incentives section, quote form, and footer.
+
+### Only these THREE pricing plans must appear
+
+**Plan 1: EZ Plan**
+
+Use the reference plan's overall presentation and, where accurate for Smart Way Solar's actual offer, include features such as:
+
+- Lease or power purchase agreement options.
+- No upfront payment, where applicable.
+- Predictable monthly payments.
+- Potential savings on electricity costs.
+
+**Plan 2: Finance-to-own**
+
+Include the corresponding reference-style description and, where verified, features such as:
+
+- Ownership through financing.
+- Fixed payments.
+- Flexible financing terms.
+- Warranty information.
+
+**Plan 3: Direct Purchase**
+
+Include the corresponding reference-style description and, where verified, features such as:
+
+- Direct system ownership.
+- Upfront payment.
+- No recurring solar financing payment after purchase.
+
+Keep the original reference's card styling, icons, text alignment, spacing, and responsive grid as closely as possible.
+
+Do not invent actual prices, financing terms, eligibility, or guarantees that Smart Way Solar has not confirmed. Make these details easy to configure.
+
+### ABSOLUTELY REMOVE THE PREPAID PLAN
+
+The reference website has a fourth plan named:
+
+“Prepaid Solar Service”
+
+**Do not display this plan anywhere on the recreated pricing page.**
+
+Do not include its card, title, icon, description, bullet points, image, CTA, or empty card space.
+
+Remove it from the underlying pricing-plan data as well as the rendered page.
+
+The final pricing layout must contain exactly three visible plans:
+
+1. EZ Plan
+2. Finance-to-own
+3. Direct Purchase
+
+Ensure the remaining three cards align evenly on desktop and adapt cleanly to tablets and mobile devices.
+
+Search the complete project to ensure no visible “Prepaid Solar Service” plan remains in any pricing section or duplicated mobile layout.
+
+## 7. FIND YOUR STATE — USE EXACTLY THESE EIGHT OPTIONS
+
+Every state selector, Find Your State bar, location dropdown, and relevant state-card section must use the following requested locations:
+
+1. Pennsylvania
+2. Massachusetts
+3. District of Columbia
+4. Virginia
+5. New York
+6. California
+7. New Jersey
+8. Texas
+
+Use these names and this order.
+
+Do not substitute other states from the reference website's existing list.
+
+Implement a functional state selector. Selecting a location should navigate to its corresponding location page or a properly implemented state-specific route.
+
+Create reusable state-page templates, for example:
+
+- `/locations/pennsylvania`
+- `/locations/massachusetts`
+- `/locations/district-of-columbia`
+- `/locations/virginia`
+- `/locations/new-york`
+- `/locations/california`
+- `/locations/new-jersey`
+- `/locations/texas`
+
+The District of Columbia route must work even though the requested label is presented alongside states.
+
+If location-specific solar incentives, regulations, coverage, or licensing information have not been verified, do not fabricate it. Use editable content fields and indicate that details need verification before publication.
+
+On both desktop and mobile, the selector must be readable, keyboard accessible, visually consistent with the reference website, and fully functional.
+
+## 8. “WHY SMART WAY SOLAR?” SECTION — FOLLOW MY SCREENSHOT
+
+Use the screenshot I attached as the direct reference for the pricing page's founder/about section.
+
+Recreate the composition:
+
+- A small introductory label at the top.
+- A large heading reading “Everything Included. Including Fair Pricing.”
+- The original-style explanatory paragraphs.
+- A short introductory sentence before the benefit list.
+- Four individually spaced list items with matching decorative icons.
+- A closing paragraph.
+- The same general two-column layout, proportions, typography, margins, and whitespace.
+
+Change “Why Venture Home?” to:
+
+**Why Smart Way Solar?**
+
+Replace relevant company-name references with Smart Way Solar.
+
+Keep the text styling and section layout similar to the screenshot, subject to verification of company-specific claims before publication.
+
+### Remove the founders' names
+
+The reference section ends with the founders' names:
+
+“Alex Yackery & Alex Giles”
+
+Remove both names completely.
+
+Do not replace them with invented names.
+
+Do not display a founder signature, name, caption, or attribution in that position.
+
+### Remove the founder photograph, but KEEP ITS SPACE
+
+The right side of the screenshot contains a large photograph of two founders.
+
+For the recreated Smart Way Solar website:
+
+- Remove that photograph completely.
+- Preserve the same image container's general dimensions, position, alignment, and aspect ratio.
+- Keep the space blank for a photograph that I will upload later.
+- Do not automatically insert a new photograph.
+- Do not generate replacement people.
+- Do not collapse the layout or shift all of the text into the center.
+- Do not show a broken-image icon, unwanted alt-text, or a visible placeholder message to visitors.
+
+Use a clean, empty image area with a neutral background if required by the design. Structure it so I can replace it with my own image later by changing one image source or configuration value.
+
+Keep this blank image area only for the specified “Why Smart Way Solar?” section. Other appropriate website photographs should remain present.
+
+## 9. IMAGES, VIDEOS, AND ANIMATIONS
+
+Inspect the reference website's visual assets and preserve the original's visual approach.
+
+Where authorized assets are available, preserve the original:
+
+- Photographic subject matter.
+- Image proportions.
+- Cropping and focal points.
+- Video or animation duration and motion style.
+- Placement of moving and static elements.
+- Section entry and hover animations.
+- General scroll experience.
+
+Where an asset includes old company branding, use a properly edited version with Smart Way Solar branding if possible and authorized.
+
+If an asset cannot be edited cleanly or legally reused, replace it with an appropriately licensed, realistic photograph or animation that matches its original purpose, composition, and lighting.
+
+Never make the website look cartoonish.
+
+Do not use random, unrelated stock photos just to fill space.
+
+Create a centralized asset configuration so individual images can be changed later without editing multiple components.
+
+Add responsive image sizing, appropriate alt text, lazy loading where suitable, and reduced-motion support for users who prefer less animation.
+
+Avoid excessive animation that slows the site or makes the text difficult to read.
+
+## 10. BUTTONS AND INTERACTIONS — NO DEAD BUTTONS
+
+Every visible, interactive control must work.
+
+Implement and test:
+
+- Logo navigation.
+- Navigation menu dropdowns.
+- Mobile menu opening and closing.
+- Get a Quote buttons.
+- Pricing-plan calls to action.
+- Find Your State selectors.
+- State cards and location links.
+- Solution cards.
+- Plans & Services links.
+- Contact links.
+- Phone and email links when actual business details are configured.
+- FAQ accordion controls where present.
+- Testimonial navigation where present.
+- Form inputs, validation, consent controls, and submission states.
+- Footer navigation.
+- Facebook social button.
+
+### Expected behavior
+
+- Internal navigation buttons must open the correct route or section.
+- Quote buttons should navigate to the quote form or scroll to it.
+- Telephone links must use a `tel:` URL when a verified business phone number is configured.
+- Email links must use a `mailto:` URL when a verified business email is configured.
+- State selection must navigate to the corresponding location.
+- Dropdown menus must close appropriately after selection and on outside interaction.
+- Accordion controls must reveal and hide their corresponding content.
+- Buttons must have suitable hover, focus, active, and disabled states.
+- No button may lead to `#`, an empty URL, or a meaningless destination merely to appear clickable.
+
+Where the original destination uses an external service that is not available, implement a meaningful internal destination or an explicitly configurable external URL.
+
+Do not invent Smart Way Solar's phone number, email address, or official social profile.
+
+Create a centralized configuration file for business contact details, social links, and quote-form integration.
+
+### Quote form
+
+Create a functional quote-request form with fields such as:
+
+- First name
+- Last name
+- Email address
+- Phone number
+- ZIP code
+- Required consent checkbox where appropriate
+
+Validate required fields and email/ZIP formats. Provide clear field-level feedback, loading states, success messages, and error handling.
+
+If a working form endpoint or backend integration is available, submit the data through it.
+
+If no backend is connected, provide a clearly identified demo submission state and document exactly what must be configured before real customer inquiries can be received. Never tell a customer their inquiry was actually delivered when it was not.
+
+Do not create misleading consent language. Use the final business's approved privacy policy and consent terms.
+
+## 11. FOOTER CHANGES
+
+Recreate the reference footer's general structure and spacing, adapted for Smart Way Solar.
+
+Include an appropriate company logo, relevant internal navigation, verified contact details, and suitable legal links.
+
+The copyright line should use the new company name:
+
+**© 2026 Smart Way Solar. All rights reserved.**
+
+Keep the year configurable or automatically current.
+
+### Remove Anchour completely
+
+The original website has a footer credit:
+
+“Website by Anchour”
+
+Remove it completely.
+
+Do not replace Anchour with another design agency's name.
+
+Do not display its logo, link, credit, or hidden attribution anywhere in the new website.
+
+### Facebook must be the only social-media button
+
+Add one Facebook button/icon in the appropriate footer or social-links area.
+
+Use a centralized `FACEBOOK_URL` configuration value so I can insert the official Smart Way Solar Facebook page URL later.
+
+Do not invent a Facebook profile URL.
+
+Remove the other social-media and review-platform buttons or badges, including additional Google Reviews, SolarReviews, and Birdeye controls, wherever they appear as standalone review/social links.
+
+This restriction is about social-media and review-platform controls. **Do not remove the site's essential navigation, Get a Quote, pricing, state selector, contact, form-submit, or other functional website buttons.** Those must remain available and functional.
+
+Keep legal links only when their correct destinations and content are provided or implemented.
+
+## 12. TECHNICAL IMPLEMENTATION
+
+Build this as a proper, maintainable web application rather than a static visual mockup.
+
+Preferred stack, where supported by the project environment:
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS or well-structured modular CSS
+- React Router for multi-page navigation
+- Framer Motion or lightweight CSS transitions for appropriate animations
+
+Reuse the project's existing stack when it is already configured correctly.
+
+Create reusable components for the header, dropdown menus, footer, pricing cards, state selector, quote form, FAQ accordion, content sections, and buttons.
+
+Create reusable page templates for the state pages and other repeated layouts.
+
+Separate content from presentation so the company text, pricing-plan details, contact information, Facebook URL, imagery, and other replaceable details can be maintained centrally.
+
+Keep the code organized, responsive, accessible, and easy to extend.
+
+Use semantic HTML, keyboard-accessible controls, sufficient contrast, appropriate focus indicators, and responsive typography.
+
+Do not break existing working project features unnecessarily.
+
+Do not create fake integrations or pretend that a backend, CRM, calendar, or lead-management system has been connected when it has not.
+
+## 13. RESPONSIVE DESIGN
+
+Test and adapt the entire website for:
+
+- Desktop: approximately 1440px wide
+- Laptop: approximately 1280px wide
+- Tablet: approximately 768px wide
+- Mobile: approximately 375–430px wide
+
+Match the reference site's desktop layout as closely as possible.
+
+On smaller screens:
+
+- Stack multi-column sections naturally.
+- Keep the blank founder-photo area structurally valid.
+- Use appropriate image crops.
+- Make navigation usable through the mobile menu.
+- Keep state selectors and pricing cards easy to interact with.
+- Prevent text overflow and horizontal scrolling.
+- Make buttons large enough for touch input.
+- Maintain readable line lengths and spacing.
+
+Do not solve responsiveness by simply shrinking the desktop page.
+
+## 14. SEARCH, METADATA, AND BRAND CLEANUP
+
+Give the website appropriate Smart Way Solar page titles, meta descriptions, and accessible labels.
+
+Use consistent internal routes and relevant page headings.
+
+Before completing the task, perform a project-wide search for:
+
+- Venture Home
+- Venture Solar
+- Venture
+- Anchour
+- Alex Yackery
+- Alex Giles
+- Prepaid Solar Service
+
+Remove all inappropriate visible brand references, the prohibited footer credit, the founders' names, and the excluded pricing plan.
+
+Any references retained solely in non-user-facing developer notes about the original reference must not appear on the live website.
+
+Check image and video assets too, not just the text in the code.
+
+## 15. FINAL QUALITY ASSURANCE CHECKLIST
+
+Before declaring the website complete, verify every item below:
+
+1. The website looks professionally designed and closely follows the supplied reference website.
+2. The visual design is realistic, not cartoonish.
+3. The Smart Way Solar name is used consistently.
+4. Desktop navigation and mobile navigation both work.
+5. All primary navigation links open valid destinations.
+6. All quote buttons reach the correct quote form.
+7. Every visible pricing card or plan control has meaningful functionality.
+8. Exactly three pricing plans are displayed: EZ Plan, Finance-to-own, and Direct Purchase.
+9. Prepaid Solar Service does not appear anywhere on the live pricing page.
+10. All eight requested locations appear in the correct order.
+11. The location selector and state-specific navigation work.
+12. The “Why Smart Way Solar?” section closely follows my screenshot.
+13. The founder photograph is removed, but its empty space remains.
+14. Alex Yackery and Alex Giles are not displayed.
+15. The footer reads “© 2026 Smart Way Solar. All rights reserved.”
+16. “Website by Anchour” is completely removed.
+17. Facebook is the only social-media button.
+18. Essential website buttons remain intact and functional.
+19. The form has proper validation and honest submission behavior.
+20. No fake customer testimonials, unverified claims, or fabricated contact details are presented as genuine.
+21. Images are appropriately sized, load correctly, and use realistic photography.
+22. There are no broken images, dead links, browser console errors, or unintended horizontal scrollbars.
+23. The website works across the specified desktop, tablet, and mobile widths.
+24. Motion respects reduced-motion preferences and does not compromise usability.
+
+## FINAL INSTRUCTION
+
+Do not stop after creating the homepage or a basic visual prototype.
+
+Inspect the supplied references, implement the website and internal pages, apply all branding and content changes, and test the actual interactions.
+
+Prioritize visual fidelity to the reference, realistic solar photography, fully functioning navigation, the exact eight-location selector, the three-plan pricing layout, and the founder section changes.
+
+If a required external asset, integration, or business detail is unavailable, clearly identify that specific dependency and implement the best working version possible without inventing information.
+
+Deliver the working Smart Way Solar website project and a concise summary of the implemented pages, tested interactions, and any configuration still required before publishing.
