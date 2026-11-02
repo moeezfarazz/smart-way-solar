@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none">
+  <!-- Dark Brand Background for High Contrast on Light & Dark Browser Tabs -->
+  <rect width="32" height="32" rx="7" fill="#191919" />
+  <rect x="0.75" y="0.75" width="30.5" height="30.5" rx="6.25" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1.5" />
+  <!-- House Contour Outline (#7aefb1 Smart Way Solar Mint) -->
+  <path
+    d="M16 5L6 13.4V25.2C6 26.1941 6.80589 27 7.8 27H24.2C25.1941 27 26 26.1941 26 25.2V13.4L16 5Z"
+    stroke="#7aefb1"
+    stroke-width="2.4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Inner Clean Solar Crest / Roof Horizon (#ffffff) -->
+  <path
+    d="M16 12.2L20.8 16.2V22.8H11.2V16.2L16 12.2Z"
+    stroke="#ffffff"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Sun Core Dot (#e3ff75 / #7aefb1) -->
+  <circle cx="16" cy="18" r="2.1" fill="#7aefb1" />
+</svg>
