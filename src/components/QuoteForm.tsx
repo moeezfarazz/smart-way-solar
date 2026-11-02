@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Send, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react';
 import { validateQuoteForm, formatPhoneNumber, QuoteFormData } from '../utils/validation';
+import { sendQuoteWithEmailJs } from '../utils/emailjsClient';
 import { SITE_CONFIG } from '../config/siteConfig';
 
 interface QuoteFormProps {
@@ -21,6 +22,7 @@ export const QuoteForm: React.FC<QuoteFormProps> = ({ initialPlan = '', classNam
   });
 
   const [errors, setErrors] = useState<Record<string, string>>({});
+  const [submitError, setSubmitError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -35,6 +37,10 @@ export const QuoteForm: React.FC<QuoteFormProps> = ({ initialPlan = '', classNam
       setFormData((prev) => ({ ...prev, [name]: value }));
     }
 
+    if (submitError) {
+      setSubmitError(null);
+    }
+
     // Clear error for field if active
     if (errors[name]) {
       setErrors((prev) => {
@@ -45,8 +51,9 @@ export const QuoteForm: React.FC<QuoteFormProps> = ({ initialPlan = '', classNam
     }
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setSubmitError(null);
     const validation = validateQuoteForm(formData);
 
     if (!validation.isValid) {
@@ -56,11 +63,22 @@ export const QuoteForm: React.FC<QuoteFormProps> = ({ initialPlan = '', classNam
 
     setIsSubmitting(true);
 
-    // Simulate reliable dispatch
-    setTimeout(() => {
+    const result = await sendQuoteWithEmailJs(formData);
+
+    if (!result.ok || result.status !== 200) {
+      if (result.fieldErrors) {
+        setErrors(result.fieldErrors);
+      }
+      setSubmitError(
+        result.error ||
+          `We could not confirm delivery of your quote request right now. Please try again or call us directly at ${SITE_CONFIG.phone}.`
+      );
       setIsSubmitting(false);
-      setIsSubmitted(true);
-    }, 900);
+      return;
+    }
+
+    setIsSubmitting(false);
+    setIsSubmitted(true);
   };
 
   if (isSubmitted) {
@@ -90,6 +108,7 @@ export const QuoteForm: React.FC<QuoteFormProps> = ({ initialPlan = '', classNam
           type="button"
           onClick={() => {
             setIsSubmitted(false);
+            setSubmitError(null);
             setFormData({
               firstName: '',
               lastName: '',
@@ -321,6 +340,16 @@ export const QuoteForm: React.FC<QuoteFormProps> = ({ initialPlan = '', classNam
           </p>
         )}
       </div>
+
+      {submitError && (
+        <div
+          role="alert"
+          className="mt-5 p-3.5 rounded-xl bg-red-50 border border-red-200 text-xs text-red-700 flex items-start gap-2.5"
+        >
+          <AlertCircle className="w-4 h-4 text-red-600 flex-shrink-0 mt-0.5" />
+          <span>{submitError}</span>
+        </div>
+      )}
 
       {/* Submit Button */}
       <div className="mt-6">
